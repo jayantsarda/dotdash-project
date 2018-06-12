@@ -1,4 +1,3 @@
-This is a fun project where I briefly extended the functionality of <a href="https://github.com/amadeuspzs/TODO/tree/NSS-TODO">NSS-TODO-List v 1.1</a> made by "amadeus.maclab.org".
 
 
 <h3>Setup:</h3>
@@ -14,11 +13,15 @@ In order to install the NSS-TODO-List (extended) application:
 <li>Go to http://localhost/dotdash-project/index.php (or whatever name you have given to the folder containing all of the project files) and access the application.</li>
 </ul>
 <h3>Test Cases:</h3>
-Write test cases to test various functionalities and features of this app. Imagine you are a QA Lead and how would you go about successfully testing this app. The more scenarios you cover the better coverage you can provide. First test the API call and then test the interface and functionality of this app. Please provide your test cases in plain English and paste them under /test_cases.txt file.
+Write test cases to test various functionalities and features of this app. Imagine you are a QA Lead and how would you go about successfully testing this app. The more scenarios you cover the better coverage you can provide. 
+
+<h3>Front End Automation:</h3>
+Automate the above test cases in order to test the functional flow through of the application. In particular, we want to test options around creating a todo, assigning categories, modifying/deleting existing todos etc. The application should itself be fairly self-explanatory. Feel free to email us (jsarda@dotdash.com) with any questions about it. Please use the application first to populate data for API. I would suggest create some dunny tasks.
+1. Use webdriver to create the test scripts. Preferably in Java.
+2. Create a PR against current project or provide your github link for changes.
+
 
 <h4>API Test Cases:</h4>
-
-
 Note: There can be more than below suggested test cases.
 <ul>
 <li>Test service status of the API endpoint (only one in this case)</li>
@@ -28,9 +31,9 @@ Note: There can be more than below suggested test cases.
 <li>Count and validate the number of tasks</li>
 </ul>
 
-<h3>Automation:</h3>
-The goal is to use access the fake API call at http://localhost/nss-todo-automation/fake-API-call.php and automate above suggested test cases. 
-Selenium Webdriver with preferably Python bindings (or any other OO language of your choice). Automate the above test cases in order to test the functional flow through of the application. In particular, we want to test options around creating a todo, assigning categories, modifying/deleting existing todos etc. The application should itself be fairly self-explanatory. Feel free to email us (qa@dotdash.com) with any questions about it. Please use the application first to populate data for API. I would suggest create some dunny tasks.
+<h3>API Automation:</h3>
+The goal is to use access the fake API call at http://localhost/nss-todo-automation/fake-API-call.php and automate above suggested test cases. Note that API test are not expected to created using webdriver. We expect you to find right library to perform reuired task.
+
 
 
 <h3>Submission instructions:</h3>
