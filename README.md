@@ -16,7 +16,7 @@ In order to install the NSS-TODO-List (extended) application:
 Write test cases to test various functionalities and features of this app. Imagine you are a QA Lead and how would you go about successfully testing this app. The more scenarios you cover the better coverage you can provide. 
 
 <h3>Front End Automation:</h3>
-Automate the above test cases in order to test the functional flow through of the application. In particular, we want to test options around creating a todo, assigning categories, modifying/deleting existing todos etc. The application should itself be fairly self-explanatory. Feel free to email us (jsarda@dotdash.com) with any questions about it. Please use the application first to populate data for API. I would suggest create some dunny tasks.
+Automate the above test cases in order to test the functional flow through of the application. In particular, we want to test options around creating a todo, assigning categories, modifying/deleting existing todos etc. The application should itself be fairly self-explanatory. Feel free to email us (jsarda@dotdash.com) with any questions about it. Please use the application first to populate data for API. 
 1. Use webdriver to create the test scripts. Preferably in Java.
 2. Create a PR against current project or provide your github link for changes.
 
